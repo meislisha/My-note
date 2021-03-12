@@ -97,7 +97,18 @@ manifest.js  webpack manifest文件用来引导所有模块的交互。manifest�
 
 
 
+#### webpack4.0
 
+```
+拆包方式： (以前需要使用插件，现在只用配置)
+optimization:{
+	splitChunk:{chunk:'all'}
+}
+
+
+插件：
+babel-plugin-import 实现按需加载
+```
 
 VSCODE安装了什么插件
 
